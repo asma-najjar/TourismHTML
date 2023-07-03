@@ -1,0 +1,568 @@
+body {
+    width: 1920px;
+}
+
+/*THIS IS CSS OF PART 1*/
+.part1 {
+    height: 700px;
+    padding: 0 400px;
+    background-image: url("Tourism.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.part1 .header p {
+    text-align: left;
+    color: black;
+    line-height: 60px;
+    font-size: 45px;
+    height: 60px;
+    width: 155px;
+    margin-left: 400px;
+    margin-top: 44px;
+    font-family: UnthriftSecondPersonal;
+    line-height: 1.33px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.nav .logo {
+    font-size: 45px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav .logo::before {
+    content: "";
+    width: 64px;
+    height: 64px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 45px;
+    z-index: -1;
+}
+
+.nav ul {
+    display: flex;
+    width: 400px;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header li {
+    list-style-type: none;
+    width: 80px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    width: 448px;
+    margin-top: 110px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content .title {
+    text-align: left;
+    font-size: 94px;
+    letter-spacing: 5.26px;
+    color: black;
+}
+
+.content .text {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #9e9e9e;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 56px;
+    font-size: 14px;
+}
+
+/*THIS IS CSS OF PART 2*/
+.part2{
+    height: 700px;
+    background-image: url("Mask\ Group\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bord{
+    background-color: white;
+    width: 736px;
+    height: 427px;
+    margin-top: 223px;
+    display: flex;
+}
+
+.content2{
+    text-align: center;
+    flex-direction: column;
+}
+
+.content2 .title2{
+    font-family: JuliusSansOne;
+    font-size: 32px;
+    letter-spacing: 3.84;
+    color: black;
+    margin-top: 85px;
+    
+    
+}
+
+.content2 .text2{
+    font-size: 18px;
+    font-family: Karma;
+    height: 107;
+    width: 544;
+    line-height: 27px;   
+    color: #9e9e9e; 
+    padding-left: 120px;
+    padding-right: 160px;
+    margin-top: 40px;
+}
+
+.content2 .ReadMore{
+    width: 100px;
+    height: 19px;
+    color: black;
+    padding-left: 320px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1.68px;
+    margin-top: 60px;
+}
+
+.part2 .photOfPart2{
+    background-color: #9e9e9e;
+    width:384px ;
+    height: 427px;
+    object-fit: contain;
+    margin-top: 223px;
+    margin-left: 400px;
+}
+
+/*THIS IS CSS OF PART 3*/
+.part3{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.content3-1 {
+    width: 700px;
+    margin-top: 120px;
+}
+.content3-2{
+    width: 140px;
+    margin-top: 120px;
+}
+.content3-3{
+    width: 1080px;
+    margin-top: 120px;
+}
+.content3-1 .location{
+    width: 160px;
+    height: 160px;
+    margin-left: 448px;
+}
+.content3-1 .title3-1{
+    margin-left:469px;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    width:108px;
+    height: 31px;
+}
+.content3-1 .text3-1{
+    width: 256px;
+    height:71px ;
+    font-family: Karma-Regular;
+    text-align: center;
+    line-height: 24px;
+    color: #9e9e9e;
+    font-size: 16px;
+    margin-left: 400px;
+    justify-content: space-between;
+}
+.content3-2 .title3-2{
+    width: 79px;
+    height: 31px;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    margin-left: 218px;
+}
+.content3-2 .text3-2{
+    width: 256px;
+    height:71px ;
+    font-family: Karma-Regular;
+    text-align: center;
+    line-height: 24px;
+    color: #9e9e9e;
+    font-size: 16px;
+    margin-left: 132px;
+    justify-content: space-between;
+}
+.content3-2 .travile{
+    width: 160px;
+    height: 160px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.content3-3 .map{
+    width: 160px;
+    height: 160px;
+    margin-left: 448px;
+}
+.content3-3 .title3-3{
+    margin-left:500px;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    width:108px;
+    height: 31px;
+}
+.content3-3 .text3-3{
+    width: 256px;
+    height:71px ;
+    font-family: Karma-Regular;
+    text-align: center;
+    line-height: 24px;
+    color: #9e9e9e;
+    font-size: 16px;
+    margin-left: 400px;
+    justify-content: space-between;
+}
+
+/*THIS IS CSS OF PART 4*/
+.part4 .photos{ 
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.part4 .underPHTOS{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.underPHTOS .containLEFT .title4-1{
+    font-size: 20px;
+    width: 220px;
+    height: 31px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    font-family: JuliusSansOne-Regular;
+    margin-left: 400px;
+}
+.underPHTOS .containLEFT .text4-1{
+    font-size: 16px;
+    width: 250px;
+    height: 47px;
+    line-height: 24px;
+    font-family: Karma-Regular;
+    margin-left: 400px;
+    color: #9e9e9e;
+    margin-top: 20px;
+}
+.underPHTOS .containLEFT .VIEW1{
+    font-size: 14px;
+    width: 38px;
+    height: 19px;
+    line-height: 19px;
+    letter-spacing: 1.68px;
+    font-family: OpenSans;
+    margin-left: 408px;
+    margin-top: 20px;
+}
+.underPHTOS .containLEFT .underlineLEFT{
+    width: 54px;
+    height: 2px;
+    margin-left: 400px;
+}
+.underPHTOS .containCENTER .title4-2{
+    font-size: 23px;
+    width: 77px;
+    height: 31px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    font-family: JuliusSansOne-Regular;
+    margin-left: 270px;
+}
+.underPHTOS .containCENTER .text4-2{
+    font-size: 16px;
+    width: 250px;
+    height: 47px;
+    line-height: 24px;
+    font-family: Karma-Regular;
+    color: #9e9e9e;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+.underPHTOS .containCENTER .VIEW2{
+    font-size: 14px;
+    width: 38px;
+    height: 19px;
+    line-height: 19px;
+    letter-spacing: 1.68px;
+    font-family: OpenSans;
+    margin-top: 20px;
+    margin-left: 290px;
+}
+.underPHTOS .containCENTER .underlineCENTER{
+    width: 54px;
+    height: 2px;
+    margin-left: 280px;
+}
+.underPHTOS .containRIGHT .title4-3{
+    font-size: 23px;
+    width: 200px;
+    height: 31px;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    font-family: JuliusSansOne-Regular;
+    margin-left: 290px;
+}
+.underPHTOS .containRIGHT .text4-3{
+    font-size: 16px;
+    width: 250px;
+    height: 47px;
+    line-height: 24px;
+    font-family: Karma-Regular;
+    color: #9e9e9e;
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 200px;
+}
+.underPHTOS .containRIGHT .VIEW3{
+    font-size: 14px;
+    width: 38px;
+    height: 19px;
+    line-height: 19px;
+    letter-spacing: 1.68px;
+    font-family: OpenSans;
+    margin-top: 20px;
+    margin-left: 405px;
+    text-align: right;
+}
+.underPHTOS .containRIGHT .underlineRIGHT{
+    width: 54px;
+    height: 2px;
+    margin-left: 395px;
+}
+
+/*THIS IS CSS OF PART 5*/
+.part5{ 
+    height: 905px;
+    background-color: #fbfbfb;
+}
+.title0{
+    margin-left: 884px;
+    font-size: 32px;
+    letter-spacing: 3.84px;
+    padding-top: 70px;
+}
+.part5 .content5{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.content5 .left{
+    background-color: white;
+    height: 536px;
+    width: 352px;
+    margin-left: 400px;
+}
+.content5 .left .title5-1{
+    height: 31px;
+    width: 200px;
+    font-size: 23px;
+    font-family: JuliusSansOne-Regular;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    text-align: center;
+    margin-left: 100px;
+}
+.content5 .left .text5-1{
+    height: 71px;
+    width: 256px;
+    font-family: Karma-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9e9e9e;
+    margin-left: 60px;
+    text-align: center;
+}
+.content5 .left .price1{
+    height: 32px;
+    width: 47px;
+    font-family: Karma-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2.88px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.content5 .left .button1{
+    width: 169px;
+    height: 56px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.content5 .center{
+    background-color: white;
+    height: 536px;
+    width: 352px;
+    margin-left: 32px;
+}
+.content5 .center .title5-2{
+    height: 31px;
+    width: 200px;
+    font-size: 23px;
+    font-family: JuliusSansOne-Regular;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    text-align: center;
+    margin-left: 100px;
+}
+.content5 .center .text5-2{
+    height: 71px;
+    width: 256px;
+    font-family: Karma-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9e9e9e;
+    margin-left: 60px;
+    text-align: center;
+}
+.content5 .center .price2{
+    height: 32px;
+    width: 47px;
+    font-family: Karma-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2.88px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.content5 .center .button2{
+    width: 169px;
+    height: 56px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.content5 .right{
+    background-color: white;
+    height: 536px;
+    width: 352px;
+    margin-left: 32px;
+    text-align: center;
+}
+.content5 .right .title5-3{
+    height: 31px;
+    width: 200px;
+    font-size: 23px;
+    font-family: JuliusSansOne-Regular;
+    line-height: 31px;
+    letter-spacing: 2.76px;
+    text-align: center;
+    margin-left: 100px;
+}
+.content5 .right .text5-3{
+    height: 71px;
+    width: 256px;
+    font-family: Karma-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9e9e9e;
+    margin-left: 60px;
+    text-align: center;
+}
+.content5 .right .price3{
+    height: 32px;
+    width: 47px;
+    font-family: Karma-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2.88px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.content5 .right .button3{
+    width: 169px;
+    height: 56px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.part5 .arrow{
+    margin-left: 860px;
+}
+
+/*THIS IS CSS OF PART 6*/
+.part6{
+    background-color: white;
+    height: 150px;
+}
+.part6 .title6{
+    text-align: center;
+    font-size: 32px;
+    line-height: 43px;
+    font-family: UnthriftSecondPersonal-Regular;
+    color: #9e9e9e;
+    padding-top: 50px;
+}
+.part6 .addition{
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: OpenSans;
+    color: #9e9e9e;
+    padding-top: 5px;
+}
+.part6 .text6{
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: OpenSans;
+    letter-spacing: 5.6px;
+    color: #212121;
+    margin-left: 250px;
+    position: absolute;
+    padding-top: 60px;
+}
+
